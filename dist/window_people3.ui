@@ -1,0 +1,1952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1055</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1055</width>
+    <height>728</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1055</width>
+    <height>728</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralwidget {border-image: url(&quot;фон5.jpg&quot;);}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget_people">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>1011</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="main_page_all_people">
+     <widget class="QLabel" name="label_cozlov_image">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>40</y>
+        <width>581</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>381</width>
+        <height>248</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>581</width>
+        <height>421</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_cozlov">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>490</y>
+        <width>581</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Times New Roman&quot;;
+background-color: rgb(100, 209, 80);</string>
+      </property>
+      <property name="text">
+       <string>Козлов Александр Александрович 
+Министр природных ресурсов и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_tsiganov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>381</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(100, 209, 80);</string>
+      </property>
+      <property name="text">
+       <string>Цыганов Константин Анатольевич
+Первый заместитель Министра природных
+ресурсов и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_anoprienko">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>381</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(100, 209, 80);</string>
+      </property>
+      <property name="text">
+       <string>Аноприенко Сергей Михайлович
+Заместитель Министра природных
+ресурсов и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_tetenkin">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>400</y>
+        <width>381</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(100, 209, 80);</string>
+      </property>
+      <property name="text">
+       <string>Тетенькин Дмитрий Дмитриевич
+Заместитель Министра природных
+ресурсов и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_radchenko">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>381</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(100, 209, 80);</string>
+      </property>
+      <property name="text">
+       <string>Радченко Светлана Юрьевна
+Статс-секретарь, заместитель Министра
+природных ресурсов и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_kerimov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>490</y>
+        <width>381</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(100, 209, 80);</string>
+      </property>
+      <property name="text">
+       <string>Керимов Мурад Керимович
+Заместитель Министра природных
+ресурсов и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_yastrebov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>220</y>
+        <width>381</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(100, 209, 80);</string>
+      </property>
+      <property name="text">
+       <string> Ястребов Сергей Николаевич
+Заместитель Министра природных
+ресурсов и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_all_people</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_minister_cozlov">
+     <widget class="QTextEdit" name="textEdit_info_cozlov">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>10</y>
+        <width>541</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 191, 62);
+font: 8pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline; color:#000000;&quot;&gt;Козлов Александр Александрович&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic; color:#000000;&quot;&gt;Министр природных ресурсов и экологии Российской Федерации&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Биография&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;Родился 2 января 1981 года в городе Южно-Сахалинске.&lt;br /&gt;В 2003 году окончил Московскую академию предпринимательства при Правительстве города Москвы по специальности «Юриспруденция». Присвоена квалификация «Юрист».&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;С 2000 по 2007 год занимал руководящие посты в компании ООО «Амурский уголь» в городе Райчихинске Амурской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;В 2007 году - директор филиала ЗАО «Русский уголь» в городе Гуково Ростовской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;В 2008 году - директор филиала ОАО «Русский уголь» в городе Благовещенск Амурской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;С 2009 по 2010 год - генеральный директор ООО «Амурский уголь» в городе Райчихинск Амурской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;2 февраля 2011 года - первый заместитель министра строительства, архитектуры и жилищно-коммунального хозяйства Амурской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;23 декабря 2011 года - министр жилищно-коммунального хозяйства Амурской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;С 14 сентября 2014 года - мэр г. Благовещенска Амурской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;С 25 марта 2015 года - временно исполняющий обязанности губернатора Амурской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;С 20 сентября 2015 года – губернатор Амурской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;С 18 мая 2018 года – Министр Российской Федерации по развитию Дальнего Востока и Арктики. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;10 ноября 2020 года – Министр природных ресурсов и экологии Российской Федерации.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Координационные и совещательные органы, возглавляемые министром&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;a href=&quot;https://www.mnr.gov.ru/activity/councils/obshchestvennyy_sovet_pri_ministerstve_prirodnykh_resursov_i_ekologii_rf/&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#000000;&quot;&gt;Общественный совет при Министерстве природных ресурсов и экологии РФ&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;a href=&quot;https://www.mnr.gov.ru/activity/councils/kollegiya_ministerstva_prirodnykh_resursov_i_ekologii_rossiyskoy_federatsii/&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#000000;&quot;&gt;Коллегия Министерства природных ресурсов и экологии Российской Федерации&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;a href=&quot;https://www.mnr.gov.ru/activity/councils/federalnyy_ekologicheskiy_sovet_pri_minprirody_rossii/&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#000000;&quot;&gt;Федеральный экологический совет при Минприроды России&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;a href=&quot;https://www.mnr.gov.ru/activity/councils/sovet_po_mezhdunarodnomu_sotrudnichestvu_v_oblasti_geologii_i_nedropolzovaniya_mpr_rossii/&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#000000;&quot;&gt;Совет по международному сотрудничеству в области геологии и недропользования Минприроды России&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;a href=&quot;https://www.mnr.gov.ru/activity/councils/ekspertnyy_sovet_po_osobo_okhranyaemym_prirodnym_territoriyam_pri_minprirody_rossii/&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#000000;&quot;&gt;Экспертный совет по особо охраняемым природным территориям при Минприроды России&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_cozlov_own">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>10</y>
+        <width>261</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_main_page">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>181</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Руководство
+Министерства
+природных ресурсов
+и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_back_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_anoprienko">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Аноприенко С.М.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_anoprienko</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_radchenko">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Радченко С.Ю.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_radchenko</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_yastrebov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Ястребов С.Н.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_yastrebov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tsiganov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Цыганов К.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tsiganov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tetenkin">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>350</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Тетенькин Д.Д.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tetenkin</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_kerimov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>390</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Керимов М.К.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_kerimov</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="label_title_cozlov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(120, 191, 62);</string>
+      </property>
+      <property name="text">
+       <string>Козлов А.А</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_anoprienko">
+     <widget class="QTextEdit" name="textEdit_info_anoprienko">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>10</y>
+        <width>541</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 191, 62);
+font: 8pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline;&quot;&gt;Аноприенко Сергей Михайлович&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;Заместитель Министра природных ресурсов и экологии Российской Федерации&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Биография&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Дата рождения: 24 ноября 1970 года.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Место рождения: г. Новый Оскол Белгородской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Образование: Московское высшее общевойсковое командное училище им. Верховного Совета Российской Федерации, Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации, аспирантура Института менеджмента, экономики и инноваций.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Классный чин: действительный государственный советник Российской Федерации 3 класса.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Трудовая деятельность:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;До 2012 года ‒ работа в МЧС России.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2012 года ‒ работа на государственной гражданской службе в Федеральном агентстве по управлению государственным имуществом.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2016 года ‒ начальник Управления имущества федеральных органов власти и организаций в сфере обороны и безопасности Федерального агентства по управлению государственным имуществом.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2017 года ‒ заместитель руководителя Федерального агентства по управлению государственным имуществом.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 30 сентября 2019 года ‒ заместитель Министра природных ресурсов и экологии Российской Федерации – руководитель Федерального агентства лесного хозяйства.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_anoprienko">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>10</y>
+        <width>261</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_cozlov_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Козлов А.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_cozlov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_kerimov_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>390</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Керимов М.К.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_kerimov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_yastrebov_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Ястребов С.Н.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_yastrebov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_return_main_page_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>181</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Руководство
+Министерства
+природных ресурсов
+и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_back_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tetenkin_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>350</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Тетенькин Д.Д.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tetenkin</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="label_title_anoprienko">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(120, 191, 62);</string>
+      </property>
+      <property name="text">
+       <string>Аноприенко С.М.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tsiganov_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Цыганов К.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tsiganov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_radchenko_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Радченко С.Ю.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_radchenko</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_radchenko">
+     <widget class="QLabel" name="label_photo_radchenko">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>10</y>
+        <width>261</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_info_radchenko">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>10</y>
+        <width>541</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 191, 62);
+font: 8pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline;&quot;&gt;Радченко Светлана Юрьевна&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;Статс-секретарь, заместитель Министра природных ресурсов и экологии Российской Федерации&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Биография&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Радченко Светлана Юрьевна окончила Современный гуманитарный институт по специальности «Юриспруденция» и Всесоюзный заочный финансово-экономический институт по специальности «Бухгалтерский учет и аудит».&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;До своего назначения С.Радченко занимала должность директора Правового департамента Минприроды России, ранее работала в структурных подразделениях министерства, отвечающих за юридическое сопровождение деятельности ведомства.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С.Радченко курирует вопросы нормотворчества, взаимодействия министерства с федеральными органами исполнительной власти по совершенствованию законодательства, а также с обеими палатами российского парламента.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_main_page_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>181</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Руководство
+Министерства
+природных ресурсов
+и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_back_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tetenkin_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>350</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Тетенькин Д.Д.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tetenkin</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_anoprienko_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Аноприенко С.М.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_anoprienko</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_yastrebov_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Ястребов С.Н.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_yastrebov</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="label_title_radchenko">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(120, 191, 62);</string>
+      </property>
+      <property name="text">
+       <string>Радченко С.Ю.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_show_kerimov_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>390</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Керимов М.К.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_kerimov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_cozlov_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Козлов А.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_cozlov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tsiganov_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Цыганов К.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tsiganov</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_yastrebov">
+     <widget class="QTextEdit" name="textEdit_info_yastrebov">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>10</y>
+        <width>541</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 191, 62);
+font: 8pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline;&quot;&gt;Ястребов Сергей Николаевич&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;Заместитель Министра природных ресурсов и экологии Российской Федерации&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Биография&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Сергей Николаевич Ястребов родился 30 июня 1954 г. Окончил Рыбинский авиационный технологический институт.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Начал свой трудовой путь в 1978 г. инженером-конструктором, инженером-технологом Рыбинского производственного объединения моторостроения (г. Рыбинск, Ярославской область).&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1979-1981 – Секретарь комитета ВЛКСМ объединения моторостроения Центрального райкома ВЛКСМ г. Рыбинска (Ярославская обл.);&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1982-1985 – Второй секретарь, первый секретарь Рыбинского городского комитета ВЛКСМ, г. Рыбинск (Ярославская обл.);&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1990-1992 – Председатель исполнительного комитета Фрунзенского района Совета народных депутатов г. Ярославля;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1992-2004 – глава администрации Фрунзенского района, глава территориальной администрации Кировского района г. Ярославля;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;2004-2012 – Первый заместитель мэра г. Ярославля;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;2012-2012 – заместитель губернатора Ярославской области;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;2012-2016 – губернатор Ярославской области;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;23.01.2017-н/в – заместитель Министра природных ресурсов и экологии РФ.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Женат, имеет двух дочерей.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_yastrebov">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>10</y>
+        <width>261</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_yastrebov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(120, 191, 62);</string>
+      </property>
+      <property name="text">
+       <string>Ястребов С.Н.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_radchenko_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Радченко С.Ю.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_radchenko</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_anoprienko_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Аноприенко С.М.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_anoprienko</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_cozlov_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Козлов А.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_cozlov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tsiganov_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Цыганов К.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tsiganov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_kerimov_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>390</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Керимов М.К.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_kerimov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tetenkin_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>350</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Тетенькин Д.Д.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tetenkin</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_return_main_page_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>181</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Руководство
+Министерства
+природных ресурсов
+и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_back_all_people</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_tsiganov">
+     <widget class="QTextEdit" name="textEdit_info_tsiganov">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>10</y>
+        <width>541</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 191, 62);
+font: 8pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline;&quot;&gt;Цыганов Константин Анатольевич&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;Первый заместитель Министра природных ресурсов и экологии Российской Федерации &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Биография&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Константин Анатольевич Цыганов родился 29 октября 1973 года в г. Темиртау (Казахстан).&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;В 1996 году с отличием окончил Московский государственный институт стали и сплавов (государственный технологический университет) по специальности «Экономика и управление на предприятии (металлургия)». Присвоена квалификация «экономист-менеджер».&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;В 1998 году с отличием окончил Российскую академию государственной службы при Президенте Российской Федерации по специальности «Юриспруденция». Присвоена квалификация «юрист».&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2005 по 2016 гг. проходил повышение квалификации по бюджетному учету, финансовому контролю и контрактной системе в сфере закупок.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 1997 по 1998 гг. - управляющий делами ПО «Московская гильдия риелторов».&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 1998 по 2003 гг. - заместитель начальника отдела экспериментальной застройки ЗАО «Центр содействия жилищной реформе» (г. Москва).&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2003 по 2004 гг. - директор по управлению ООО «Мой дом. Управление жилищным фондом» (г. Москва).&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2004 по 2017 гг. - проходил государственную гражданскую службу на различных должностях в Главном контрольном управлении Управления делами Президента Российской Федерации, в том числе с апреля 2016 года в должности начальника отдела внутреннего финансового аудита и контроля в сфере закупок.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2017 по 2019 гг. - советник Министра Российской Федерации по развитию Дальнего Востока и Арктики.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С сентября 2019 по январь 2021 гг. – заместитель Министра Российской Федерации по развитию Дальнего Востока и Арктики.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Имеет классный чин государственной гражданской службы Российской Федерации государственного советника Российской Федерации 2 класса.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_tsiganov">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>10</y>
+        <width>261</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_main_page_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>181</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Руководство
+Министерства
+природных ресурсов
+и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_back_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tetenkin_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>350</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Тетенькин Д.Д.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tetenkin</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_anoprienko_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Аноприенко С.М.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_anoprienko</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_yastrebov_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Ястребов С.Н.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_yastrebov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_cozlov_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Козлов А.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_cozlov</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="label_title_tsiganov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(120, 191, 62);</string>
+      </property>
+      <property name="text">
+       <string>Цыганов К.А.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_radchenko_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Радченко С.Ю.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_radchenko</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_kerimov_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>390</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Керимов М.К.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_kerimov</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_tetenkin">
+     <widget class="QTextEdit" name="textEdit_info_tetenkin">
+      <property name="geometry">
+       <rect>
+        <x>201</x>
+        <y>11</y>
+        <width>541</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 191, 62);
+font: 8pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline;&quot;&gt;Тетенькин Дмитрий Дмитриевич&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;Заместитель Министра природных ресурсов и экологии Российской Федерации &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Биография&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Тетенькин Дмитрий Дмитриевич родился в 1976 году, женат, двое детей.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 1990 по 1999 гг. «Дальвостуголь».&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2001 по 2006 гг. генеральный директор ООО «Райчихинские коммунальные системы».&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2006 по 2012 гг. - директор «Ремонтно-механического завода», заместитель генерального директора ООО «Амурский уголь».&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2012 по 2014 гг. - первый заместитель министра жилищно-коммунального хозяйства области Министерства жилищно-коммунального хозяйства Амурской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2014 по 2015 гг. - заместитель главы администрации города Благовещенска, заместитель мэра города Благовещенска.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2015 по 2018 гг. - заместитель председателя Правительства, первый заместитель министра транспорта и строительства области Министерства транспорта и строительства Амурской области.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2018 по 2020 гг. - советник Министра Российской Федерации по развитию Дальнего Востока и Арктики.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;В 2020 г. - генеральный директор АО «Корпорация развития Дальнего Востока и Арктики».&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;С 2021 г. - заместитель Министра природных ресурсов и экологии Российской Федерации.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Награжден Почетной грамотой Амурской области, Благодарностью Министерства строительства и жилищно-коммунального хозяйства Российской Федерации, в 2020 году Почетной грамотой Правительства Российской Федерации.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_tetenkin">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>10</y>
+        <width>261</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_cozlov_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Козлов А.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_cozlov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_anoprienko_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Аноприенко С.М.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_anoprienko</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_return_main_page_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>181</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Руководство
+Министерства
+природных ресурсов
+и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_back_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_radchenko_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Радченко С.Ю.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_radchenko</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_yastrebov_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Ястребов С.Н.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_yastrebov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tsiganov_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Цыганов К.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tsiganov</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="label_title_tetenkin">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>350</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(120, 191, 62);</string>
+      </property>
+      <property name="text">
+       <string>Тетенькин Д.Д.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_show_kerimov_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>390</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Керимов М.К.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_kerimov</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_kerimov">
+     <widget class="QTextEdit" name="textEdit_info_kerimov">
+      <property name="geometry">
+       <rect>
+        <x>201</x>
+        <y>11</y>
+        <width>541</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 191, 62);
+font: 8pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline;&quot;&gt;Керимов Мурад Керимович&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;Заместитель Министра природных ресурсов и экологии Российской Федерации&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Биография&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Родился 10 июля 1978 г., г. Дербент&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Образование:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;1999 год - Высшее учебное заведение юридический колледж - специализированный институт юриспруденции – Московского государственного университета&lt;br /&gt;им. М.В. Ломоносова&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;2000 год - Российский государственный университет нефти и газа им. И.М. Губкина;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;2012 год - ФГБОУ ВПО «Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации»&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Кандидат юридических наук.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Трудовая деятельность:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;03.2014 - 04.2016 – заместитель руководителя Федерального агентства водных ресурсов, г. Москва&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;09.2013 - 03.2014 - помощник полномочного представителя Президента Российской Федерации в Дальневосточном федеральном округе Администрации Президента Российской Федерации, г. Хабаровск&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;03.2013 - 09.2013 - заместитель начальника департамента обеспечения деятельности Совета при Президенте Российской Федерации по развитию физической культуры и спорта Управления Президента Российской Федерации по обеспечению деятельности Государственного совета Российской Федерации Администрации Президента Российской Федерации, г. Москва&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;08.2011 - 03.2013 - советник федерального Министра на период полномочий Министра природных ресурсов и экологии Российской Федерации, г. Москва&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;12.2010 - 08.2011- заместитель начальника Департамента Федеральной службы по надзору в сфере природопользования по Центральному федеральному округу Департамента Федеральной службы по надзору в сфере природопользования по Центральному федеральному округу, г. Москва&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;2000 - 2010 - помощник Пресненского межрайонного прокурора, помощник, старший помощник Лефортовского межрайонного прокурора, прокурор отдела по надзору за исполнением законов в экологической сфере, на транспорте и в оборонном комплексе управления по надзору за соблюдением федерального законодательства прокуратуры, заместитель межрайонного природоохранного прокурора г. Москвы Прокуратуры города Москвы, г. Москва&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Классный чин:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;действительный государственный советник Российской Федерации 2 класса&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Награды:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Медаль Ордена «За заслуги перед Отечеством» II степени, 2014 г.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Почетная грамота Президента РФ, 2015 г.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Медаль «Адмирал флота Советского Союза С.Г. Горшков» Минобороны России, 2016 г. и другие ведомственные награды&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Благодарность Председателя Совета Федераций ФС РФ В.И. Матвиенко, 2017 г.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Памятная медаль «XIX Всемирный фестиваль молодежи и студентов 2017 года в&lt;br /&gt;г. Сочи», 2018 г.&lt;br /&gt;&lt;br /&gt;Благодарственное письмо Президента Российской Федерации, 2018 г.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Курирует&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline;&quot;&gt;Департамент государственной политики и регулирования в сфере охраны окружающей среды и экологической безопасности&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline;&quot;&gt;Департамент государственной политики и регулирования в сфере обращения с отходами производства и потребления&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_kerimov">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>10</y>
+        <width>261</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tsiganov_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Цыганов К.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tsiganov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_cozlov_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Козлов А.А.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_cozlov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_return_main_page_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>181</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Руководство
+Министерства
+природных ресурсов
+и экологии РФ</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_back_all_people</string>
+      </attribute>
+     </widget>
+     <widget class="QLabel" name="label_title_kerimov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>390</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(120, 191, 62);</string>
+      </property>
+      <property name="text">
+       <string>Керимов М.К.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_anoprienko_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Аноприенко С.М.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_anoprienko</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_yastrebov_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Ястребов С.Н.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_yastrebov</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_show_tetenkin_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>350</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Тетенькин Д.Д.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_tetenkin</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="bnt_show_radchenko_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);</string>
+      </property>
+      <property name="text">
+       <string>Радченко С.Ю.</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_radchenko</string>
+      </attribute>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_head_people">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>1001</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Лица, ответственные за экологию в России</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="indent">
+     <number>0</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1055</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_tetenkin"/>
+  <buttongroup name="buttonGroup_kerimov"/>
+  <buttongroup name="buttonGroup_tsiganov"/>
+  <buttongroup name="buttonGroup_cozlov"/>
+  <buttongroup name="buttonGroup_yastrebov"/>
+  <buttongroup name="buttonGroup_anoprienko"/>
+  <buttongroup name="buttonGroup_radchenko"/>
+  <buttongroup name="buttonGroup_all_people"/>
+  <buttongroup name="buttonGroup_back_all_people"/>
+ </buttongroups>
+</ui>

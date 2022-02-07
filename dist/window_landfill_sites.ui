@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>943</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(177, 255, 165);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget_waste">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>70</y>
+      <width>701</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>5</number>
+    </property>
+    <widget class="QWidget" name="page_introduction">
+     <widget class="QTextEdit" name="textEdit_main_wind">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>691</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;По данным Росприроднадзора, российские свалки занимают 4 млн гектаров.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Это равняется размеру 4 таких крупнейших островов как Кипр, площади Нидерландов или Швейцарии. Статистика утверждает, что ежегодно количество мусора увеличивается, соответственно растёт размер площадей мусорных свалок. Каждый год новые территории площадью 0,4 млн гектар, эквивалентные по размеру Москве и Петербургу, становятся полигоном для отходов жизнедеятельности. Если такие темпы сохранятся, то к 2050 году свалки займут 1% площади России.  Предполагается, что через 10 лет площадь, отведённая под свалки, увеличится в 2 раза и составит 8 млн гектар – размер 2 Азовских морей.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_landfill_main">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>420</y>
+        <width>691</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_s_landfill_sites">
+     <widget class="QTextEdit" name="textEdit_s">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Площадь российских свалок&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;И площадь разных стран и Москвы&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps9111.tmp.png&quot; width=&quot;671&quot; height=&quot;364&quot; /&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_russian_situation">
+     <widget class="QTextEdit" name="textEdit_situation">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>691</width>
+        <height>711</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;По данным Росстата, в прошлом году российская экономика сгенерировала 7,3 млрд тонн отходов. Чтобы перевезти их все за один раз по железной дороге, нужен грузовой поезд длиной 1,5 млн километров — это примерно четыре расстояния от Земли до Луны.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Правда, почти все это — промышленные отходы, которые не являются мусором в обычном понимании. Например, статистики считают отходами горную породу, которую вынимают при добыче руды, а потом складывают в отвалы. Предприятия, которые занимаются добычей полезных ископаемых, производят основную часть отходов — 6,9 млрд тонн. Три четверти этого показателя — угольная промышленность.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Мусор в привычном понимании, который коммунальные службы вывозят на свалки или специальные перерабатывающие заводы, называют твердыми бытовыми отходами (ТБО) и твердыми коммунальными отходами (ТКО). В России ежегодно образуется около 60 млн тонн таких отходов. Количество бытового мусора тоже растет: за двадцать лет производство ТКО выросло вдвое. В Росприроднадзоре говорят, что это связано с активным использованием упаковочных материалов: полиэтилена, пластика, бумаги. Правда, какую долю в общем объеме мусора занимает упаковка, точно не известно.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_amount_waste_typical">
+     <widget class="QTextEdit" name="textEdit_typical_people_waste">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Сколько мусора производит типичный россиянин&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Среднестатистический россиянин производит в год около двух кубометров мусора — примерно 400 кг. Это около 1,1 кг в день. Если верить статистике Всемирного банка, на общемировом фоне Россия выглядит не так уж и плохо: в целом по планете этот показатель составляет 1 кг. Больше всего мусора производят жители Исландии: 4,3 кг в день. Меньше всего — граждане Лесото: всего 100 г.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Глобольная карта отходов, отчет Всемирного банка на английском языке&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Более четверти объема мусорного ведра россиянина занимают пищевые отходы, еще почти 20% — бумага и картон, 17% — стекло. В разных странах эти пропорции сильно различаются: в Китае и Бразилии на помойку в основном отправляются пищевые отходы, в США — бумага, а в Великобритании — пластик.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps4C0D.tmp.png&quot; width=&quot;654&quot; height=&quot;565&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_waste_place_where">
+     <widget class="QTextEdit" name="textEdit_where_waste">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Куда этот мусор девается&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Большую часть бытового мусора в России вывозят на свалки. Сейчас в стране насчитывается около 15 тысяч легальных свалок. Сколько отходов россияне выбрасывают в ближайшей лесопосадке — никто не считает.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;По данным Министерства природных ресурсов, перерабатывают только 8% отходов. Например, ежегодно на свалки отправляется 9 млн тонн макулатуры, 2 млн тонн пластика и 0,5 млн тонн стекла — все это могло бы перерабатываться, но ни системы сбора таких отходов, ни специальных заводов в стране просто нет.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Стратегия развития промышленности по обработке, утилизации и обезвреживанию отходов производства и потребления на период до 2030 года.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Еще одна проблема — пищевые отходы, на долю которых приходится больше четверти всех ТКО. По данным Ассоциации компаний розничной торговли, 5% такого мусора — 700 тысяч тонн в год — это просрочка из магазинов. Продукты, у которых подходит к концу срок годности, можно бы было раздавать нуждающимся, но выгоднее их уничтожать. Налоги, которые ретейлеры должны заплатить, передавая товары на благотворительность, могут достигать 40% от их стоимости. А просрочку отдавать на благотворительность нельзя по закону. Поэтому утилизировать продукты дешевле: стоимость вывоза на полигон тонны мусора в Москве составляет всего 600—800 рублей.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_n_landfill_sites">
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>701</width>
+        <height>711</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;По данным Роспотребнадзора в реестр внесено 13905 свалок.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Отходы деятельности человека загрязняют окружающую среду, ядовитые вещества попадают в наземные и подземные воды и атмосферу. Загрязнение касается не только местности, в которой находится свалка, это всеобщая экологическая проблема. Решение вопросов загрязнения окружающей среды мусором неразрывно связано с качеством и уровнем жизни населения. Мусоросжигающие заводы усугубляют ситуацию, так как едкий дым содержит токсичные вещества, отравляющие все окружающее. Полигоны отходов в России становятся местами, где происходит экологическая катастрофа.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_people_opinion">
+     <widget class="QTextEdit" name="textEdit_people_opinion">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Что обо всем этом думают россияне&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Если верить социологическим опросам ВЦИОМа, россияне считают свалки второй по значимости экологической проблемой после загрязнения воздуха. При этом больше половины опрошенных считают, что вопросы, связанные с окружающей средой, должны решать власти. Только пятая часть россиян говорит, что за сохранение природы ответственны и сами граждане.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Экологическая ситуация в России, опрос ВЦИОМа&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Опрос ВЦИОМа показал, что 85% россиян готовы отказаться от пластиковых пакетов в супермаркетах. При этом 27% опрошенных уже складывают покупки в сумку или рюкзак, которые принесли с собой. Производители многоразовых сумок для покупок считают, что этот рынок вырастет примерно на 20% в ближайшие 3 года — прежде всего потому, что россияне готовы отказываться от полиэтиленовых пакетов ради сохранения окружающей среды. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wpsE901.tmp.png&quot; width=&quot;656&quot; height=&quot;247&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_waste_future">
+     <widget class="QTextEdit" name="textEdit_waste_future">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Мусор в России будущего&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Пока же с мусором в стране все не очень хорошо: по оценкам Общественной палаты РФ, в 2017—2018 годах только в Подмосковье в протестах, связанных с утилизацией отходов, приняли участие около 36 тысяч человек. Например, в апреле 2018 года 7 тысяч жителей Волоколамска вышли на митинг за закрытие полигона «Ядрово»; тогда же серия протестов против строительства мусоросжигательного завода прошла в Казани. А с апреля 2019 года в городах Архангельской области периодически проходят митинги против строительства нового мусорного полигона в Шиесе. Всего же подобные проблемы остро стоят в 13 регионах страны.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Но государство тоже видит мусорную проблему и пытается с ней бороться. Еще в 2013 году в Министерстве природных ресурсов приняли большой документ — стратегию обращения с твердыми коммунальными отходами. Мусорная реформа — так ее называют в СМИ — рассчитана до 2030 года. Предполагается, что к этому моменту получится полностью изменить систему сбора и утилизации мусора. Вот как выглядит Россия будущего:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;1. Еще со школы детей учат разделять мусор, не выбрасывать его где попало и вообще производить меньше отходов.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;2. Незаконных свалок в стране больше нет, а на этих местах цветут сады. Тех, кто выбрасывает мусор где не положено, штрафуют.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;3. Все россияне разделяют отходы. В каждой квартире под мойкой стоят два мусорных ведра: в одно надо выбрасывать то, что можно переработать, — стекло, бумагу, пластик, в другое — все остальное.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;4. Весь мусор, который можно снова пустить в дело, перерабатывают. Для этого по всей стране работают заводы, которые извлекают из отходов ценные компоненты. Из пищевых отходов производят компост и добывают метан, из дерева и опилок делают топливные брикеты.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;5. Тех, кто выбрасывает на свалку пригодный для переработки мусор, наказывают.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;6. Отходы, которые нельзя переработать, обезвреживают при высокой температуре. Свалки больше не воняют за версту, рядом с ними можно жить.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;7. В каждом регионе работает только одна компания, которая отвечает за весь цикл обращения с отходами — начиная с вывоза контейнеров из дворов и заканчивая переработкой. Такую компанию — она называется региональным оператором — выбирают по конкурсу раз в десять лет.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;8. Тарифы на сбор и утилизацию отходов рассчитываются по понятным для всех формулам. В каждом регионе на всей его территории действует единый тариф.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;9. Все счастливы.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_biggest_landfill_sites">
+     <widget class="QTextEdit" name="textEdit_biggest_dumps">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Самые большие свалки в России&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;С развитием цивилизации человечество стало продуцировать невероятное количество отходов, которые складируются на санкционированных и стихийных свалках. Наибольшее количество мусорохранилищ сконцентрировано в Московской, Пермской, Волгоградской, Свердловской областях России. Горы отходов разлагаются под открытым небом, отравляя воздух, почву и воду. Часть мусора закапывается, часть сжигается. Свалки захватывают миллионы гектаров земли, которую можно использовать как сельскохозяйственные угодья или под застройку жилья. Плодородные земли погибают под тяжестью мусора.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps2B8E.tmp.png&quot; width=&quot;600&quot; height=&quot;481&quot; /&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Использование пластика и других синтетических материалов приводит к тому, что разложение мусора происходит медленно: для полного распада необходимы сотни и тысячи лет. Проблема переработки стоит остро и от ее решение может зависеть дальнейшее существование планеты.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_dump_krasniy_bor">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>520</y>
+        <width>301</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+text-decoration: underline;
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 11pt &quot;Times New Roman&quot;;
+color: rgb(21, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Полигон химотходов «Красный Бор»</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_big_dumps</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_dump_igumnovskiy">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>550</y>
+        <width>191</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+text-decoration: underline;
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 11pt &quot;Times New Roman&quot;;
+color: rgb(21, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Игумновский полигон</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_big_dumps</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_dump_uryupinska">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>580</y>
+        <width>321</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+text-decoration: underline;
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 11pt &quot;Times New Roman&quot;;
+color: rgb(21, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Стихийная свалка в центре Урюпинска</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_big_dumps</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_dump_kulakovskiy">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>610</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+text-decoration: underline;
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 11pt &quot;Times New Roman&quot;;
+color: rgb(21, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Полигон «Кулаковский»</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_big_dumps</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_dump_saratov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>640</y>
+        <width>191</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+text-decoration: underline;
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 11pt &quot;Times New Roman&quot;;
+color: rgb(21, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Свалка под Саратовом</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_big_dumps</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_dump_sverdlovsk">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>520</y>
+        <width>261</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+text-decoration: underline;
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 11pt &quot;Times New Roman&quot;;
+color: rgb(21, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Свалка в Свердловской области</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_big_dumps</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_dump_shushary">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>550</y>
+        <width>221</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+text-decoration: underline;
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 11pt &quot;Times New Roman&quot;;
+color: rgb(21, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Свалка в поселке Шушары</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_big_dumps</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_dump_shirokorechnaya">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>580</y>
+        <width>201</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+text-decoration: underline;
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 11pt &quot;Times New Roman&quot;;
+color: rgb(21, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Свалка «Широкоречная»</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_big_dumps</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_dump_novgorod">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>610</y>
+        <width>351</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+text-decoration: underline;
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 11pt &quot;Times New Roman&quot;;
+color: rgb(21, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Нелегальная свалка в Новгородской области</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_big_dumps</string>
+      </attribute>
+     </widget>
+     <widget class="QPushButton" name="btn_dump_podmoskovie">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>640</y>
+        <width>361</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+text-decoration: underline;
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 11pt &quot;Times New Roman&quot;;
+color: rgb(21, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Несанкционированные свалки в Подмосковье</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_big_dumps</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_waste_recycling">
+     <widget class="QTextEdit" name="textEdit_waste_recycling">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps7A92.tmp.png&quot; width=&quot;680&quot; height=&quot;365&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_dump_krasniy_bor">
+     <widget class="QTextEdit" name="textEdit_dump_krasniy_bor">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Полигон химотходов &amp;quot;Красный Бор&amp;quot;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Эта свалка в России под Санкт-Петербургом прославилась тем, что туда свозятся отходы химической промышленности. Котлован, вырытый в слое кембрийской глины, собирает ядовитые отходы, содержащие свинец, мышьяк и ртуть. Во время проливных дождей котлован переполняется водой, которая вытекает оттуда реками. Токсичные отходы попадают в Неву и Балтийское море. Западные экологи забили тревогу по этому поводу, так как нарушено экологическое равновесие не только в РФ, но и в соседних странах Прибалтики и Скандинавии.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;В настоящее время работает программа по уничтожению токсичных захоронений, но на самом деле поступление ядовитых отходов продолжается.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps908C.tmp.png&quot; width=&quot;681&quot; height=&quot;318&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_dumps">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgba(255, 255, 255, 0);
+font: 12pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_return_dumps</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_dump_igumnovskiy">
+     <widget class="QTextEdit" name="textEdit_dump_igumnovskiy">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Игумновский полигон твердых бытовых отходов&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Самая большая свалка России находится на Игумновском полигоне в Нижегородской области. Огромные площади плодородных земель завалены гниющими отходами, которые разлагаются под открытым небом и привлекают крыс, мышей, других переносчиков инфекций. В течение 20 лет слои мусора медленно тлеют, задымленность окружающих территорий становится дополнительным фактором экологической катастрофы.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Официально мусороприемник прекратил свою работу, но экологические организации свидетельствуют, что по выходным нелегальные завозы мусора продолжаются. Ситуация стала угрожающей, так как пожар может распространиться на близлежащие жилые районы.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps411C.tmp.png&quot; width=&quot;678&quot; height=&quot;341&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_dumps_2">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgba(255, 255, 255, 0);
+font: 12pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_return_dumps</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_dump_uryupinsk">
+     <widget class="QTextEdit" name="textEdit_dump_uryupinsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Стихийная свалка в центре Урюпинска&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Город Урюпинск в Волгоградской области России привлек внимание Минприроды созданной несанкционированной свалкой ТБО, территория которой должна была временно использоваться до 2013 году. Запланированная организация полигона и мусороперегрузочной станции не состоялась, в результате чего город задыхается от разложения отходов.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Мэр Урюпинска был вызван в столицу для объяснения сложившейся ситуации, а партия «Альянс зеленых» России наградила его символическим антипризом «Осиновый кол».&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps813D.tmp.png&quot; width=&quot;675&quot; height=&quot;401&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_dumps_3">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgba(255, 255, 255, 0);
+font: 12pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_return_dumps</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_dump_kulakovskiy">
+     <widget class="QTextEdit" name="textEdit_dump_kulakovskiy">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Полигон «Кулаковский» в Московской области&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;В настоящую помойку превратился Кулаковский полигон Московской области России возле деревни Манушкино. Площадь мусорного хранилища составляет 10 гектар, время его работы составляет 60 лет. На данный момент его работа прекращена, но юридические лица, которые эксплуатировали объект, не спешат вкладывать средства в его реструктуризацию. Говорят, что нелегальный завоз мусора продолжается, а мусорные горы продолжают увеличиваться.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps118F.tmp.png&quot; width=&quot;679&quot; height=&quot;452&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_dumps_4">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgba(255, 255, 255, 0);
+font: 12pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_return_dumps</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_dump_podmoskovie">
+     <widget class="QTextEdit" name="textEdit_dump_podmoskovie">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Несанкционированные свалки в Подольском районе Подмосковья&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Район стал одним из самых замусоренных в Московской области России благодаря стихийной организации нелегальных складов мусора. Дачники и местные жители вынуждены организовывать бригады для препятствия завозу строительного мусора и твердых бытовых отходов. В 2008 году возле поселка Бережки была обнаружена свалка с емкостями, которые содержали токсичные химические вещества:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;1. едкий натрий;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;2. фенолфталеин;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;3. уксусный ангидрид;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;4. толуол;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;5. мышьяк;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;6. аммоний;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;7. едкий калий.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Несмотря на то, что яды вывезены, почва и грунтовые воды заражены. Ликвидировать последствия быстро не получиться, так как период распада химических веществ длителен и составляет сотни лет. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps6FA.tmp.png&quot; width=&quot;658&quot; height=&quot;128&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_dumps_5">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgba(255, 255, 255, 0);
+font: 12pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_return_dumps</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_dump_saratov">
+     <widget class="QTextEdit" name="textEdit_dump_saratov">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Свалка твердых бытовых отходов под Саратовом&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Благодаря бездействию местных властей свалка под Саратовом в овраге Маханный выросла до катастрофических размеров. Туда свозится металлические и строительные отходы, бытовой мусор, стеклобой. Комитет по охране природных ресурсов области направил заявление в прокуратуру по поводу нанесения ущерба окружающей среде, который составил 100 миллионов рублей.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps7643.tmp.png&quot; width=&quot;677&quot; height=&quot;384&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_dumps_6">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgba(255, 255, 255, 0);
+font: 12pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_return_dumps</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_dump_novgorod">
+     <widget class="QTextEdit" name="textEdit_dump_novgorod">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Нелегальная свалка в Парфинском районе Новгородской области&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;В 3 км от поселка Парфино в Новгородской области России найдена несанкционированная свалка мусора, которая вместила 6 тысяч кубических метров отходов хозяйственной и промышленной деятельности. В результате этого природной среде нанесен ущерб 40 млн рублей.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps85CE.tmp.png&quot; width=&quot;676&quot; height=&quot;381&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_dumps_7">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgba(255, 255, 255, 0);
+font: 12pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_return_dumps</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_dump_sverdlovsk">
+     <widget class="QTextEdit" name="textEdit_dump_sverdlovsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Свалка химотходов в Березовском районе Свердловской области&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Вблизи поселка Становая экологи с помощью аэрофотосъемки выявили нелегальное мусорохранилище. В карьере хранились отходы нефтепродуктов в пластмассовых бочках, абразивный порошок в мешках, строительный мусор. В нескольких километрах от хранения с токсичными отходами расположена водозаборная станция, обеспечивающая регион питьевой водой. Создавшаяся ситуация несет прямую опасность для здоровья и жизни местных жителей.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps6380.tmp.png&quot; width=&quot;681&quot; height=&quot;272&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_dumps_8">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgba(255, 255, 255, 0);
+font: 12pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_return_dumps</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_dump_shushari">
+     <widget class="QTextEdit" name="textEdit_dump_shushari">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Свалка в поселке Шушары&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Поселок Шушары в Ленинградской области России стал местом хранения строительного мусора. Свалка обнаружена экологами в 2013 году и нанесла ущерб окружающей среде. Отходы строительства, которые образуются в результате сноса старых зданий, массово свозятся в этот регион и нарушат баланс экосистемы.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wpsD5C4.tmp.png&quot; width=&quot;675&quot; height=&quot;449&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_dumps_9">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgba(255, 255, 255, 0);
+font: 12pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_return_dumps</string>
+      </attribute>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_dump_shirokorechnaya">
+     <widget class="QTextEdit" name="textEdit_dump_shirokorechnaya">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>691</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; font-weight:600;&quot;&gt;Свалка “Широкоречная”&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Хранилище мусора под Екатеринбургом в России, расположенное в лесном массиве, работает с 1960 года. Его ресурсы исчерпаны, поэтому функционирование официально прекращено. Но нелегальный завоз мусорных отходов продолжается, жители прилегающих районов жалуются на удушливый запах и сложную экологическую обстановку.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Проблемы свалок приобрели такую остроту, которая заставляет задуматься жителей России об изменении образа жизни и мышления. Защита окружающей среды стала решающим моментом в выживании человечества. Успешная утилизация может стимулировать рост перерабатывающей промышленности и поможет преодолеть проблему занятости.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:///C:\Users\Asus\AppData\Local\Temp\ksohtml\wps6B44.tmp.png&quot; width=&quot;658&quot; height=&quot;359&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_return_dumps_10">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>690</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgba(255, 255, 255, 0);
+font: 12pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Назад</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup_return_dumps</string>
+      </attribute>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn_landfill_sites">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Площадь
+российских свалок</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_content</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_russian_situation">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Ситуация в России</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_content</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_amount_waste_typical">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>201</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Сколько мусора
+производит типичный
+россиянин</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_content</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_places_where_waste">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Куда этот мусор
+девается?</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_content</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_n_landfill_sites">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Количество свалок,
+внесённых в реестр
+Роспотребнадзора</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_content</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_people_opinion">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>450</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Что об этом думают
+россияне?</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_content</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_waste_future">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>500</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Мусор в России
+будущего</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_content</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_biggest_landfill_sites">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>550</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Самые большие
+свалки</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_content</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_introduction">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;
+background-color: rgb(114, 187, 83);
+</string>
+    </property>
+    <property name="text">
+     <string>Немного цифр</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_content</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_waste_recycling">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Переработка
+отходов в России</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_content</string>
+    </attribute>
+   </widget>
+   <widget class="QLabel" name="label_title">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>921</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Отбросы и общество</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="indent">
+     <number>0</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>943</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_big_dumps"/>
+  <buttongroup name="buttonGroup_return_dumps"/>
+  <buttongroup name="buttonGroup_content"/>
+ </buttongroups>
+</ui>

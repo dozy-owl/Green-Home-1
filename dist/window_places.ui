@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>738</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>738</width>
+    <height>588</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>738</width>
+    <height>588</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(177, 255, 165);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_title">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>721</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 187, 83);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Города с серьёзно пострадавшей экологией</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="indent">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>80</y>
+      <width>551</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="main_page">
+     <widget class="QLabel" name="label_image_city_all">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>531</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&quot;Чёрный&quot; список</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_krasnoyarsk">
+     <widget class="QLabel" name="label_photo_krasnoyarsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_krasnoyarsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;«Черное небо» над городом – печально известный красноярцам феномен. Время от времени, когда стоит сухая безветренная погода, в воздухе повисает мелкодисперсная пыль, разбавленная автомобильными выхлопами и вредными выбросами от многочисленных промышленных предприятий города (большинство которых было основано еще в 50-х годах, когда об экологии не задумывались). &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_krasnoyarsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Красноярск</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_magnitogorsk">
+     <widget class="QLabel" name="label_photo_magnitogorsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_magnitogorsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; color:#000000;&quot;&gt;Крупный промышленный город? Плохая циркуляция воздуха из-за географического положения города? На все вопросы ответы утвердительные – неудивительно, что долгие годы Магнитогорск входил в число городов с самым «грязным» воздухом. Работа по очистке воздуха уже ведется. Главный «виновник», Магнитогорский меткомбинат, постепенно переходит на новое оборудование, соответствующее последним экологическим стандартам. Была построена новая агломерационная фабрика (часть металлургического цикла, ответственная за подготовку шихты – материала для переработки), а также переделана одна из доменных печей, что позволило сократить число выбросов более чем на 2 тонны. Конечно, в масштабах города число мизерное, однако лиха беда начало. А экологи присвоили воздуху Магнитогорска просто «высокий» уровень загрязнения, тогда как все предыдущие годы он был «очень высокий».&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_magnitogorsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Магнитогорск</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_norilsk">
+     <widget class="QTextEdit" name="textEdit_norilsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; color:#000000;&quot;&gt;Топ-5 российских городов с самым загрязненным воздухом открывает самый северный город мира, и одновременно зона экологического бедствия. И причина не только в утечке (в конце мая из бака с дизельным топливом на ТЭЦ вылилось в окружающую среду около 21 тыс. тонн дизельного топлива), но и в гигантском количестве выброса от металлургических предприятий, ТЭЦ, автотранспорта, частных котельных и печного отопления. Причем Норильск в этом отношении бьет все рекорды. Если в Красноярске (пункт 7 рейтинга) за год выброшено в атмосферу около 190 тысяч тонн вредных веществ, то в Норильске – 1,7 млн тонн. Эту поражающую воображение цифру чиновники от экологии собираются уменьшить до 75%, причем надеются сделать это еще до 2024 года.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_norilsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Норильск</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_norilsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_lipetsk">
+     <widget class="QTextEdit" name="textEdit_lipetsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; color:#000000;&quot;&gt;Это не только крупный промышленный город, специализирующийся на черной металлургии, но еще и мощный транспортный узел, расположенный между двумя трассами федерального значения, а также центр разветвленной сети железнодорожного сообщения. Как вы понимаете, свежести и чистоты атмосфере Липецка эта ситуация не добавляет. Правда, ситуация с очисткой воздуха в городе скорее благоприятная, местная администрация действительно прилагает все усилия, чтобы улучшить экологию. За последние 17 лет индекс загрязненности воздуха упал практически в 10 раз (с 25 всего до 2,6 баллов)! Как утверждают эксперты, добиться этого удалось путем оснащения металлургического комбината – главного «виновника» загрязнений – новейшими технологиями по очистке воздуха, которые позволили сократить выбросы более чем вполовину. Но липчане не собираются останавливаться на достигнутом, к 2022 году выбросы должны уменьшиться еще на 9%. Ситуация настолько благоприятна, что поговаривают даже об исключении Липецка из программы «Чистый воздух».&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_lipetsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Липецк</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_lipetsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_cherepovets">
+     <widget class="QLabel" name="label_photo_cherepovets">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_cherepovets">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; color:#000000;&quot;&gt;Несмотря на небольшое население (чуть более 300 тыс. человек), Череповец – крупный промышленный центр России, в котором находится второй по величине сталелитейный комбинат в стране. Кроме того, там действуют еще два индустриальных завода, категория экологической опасности которых наивысшая, первая. А если сюда добавить, что помимо этих трех предприятий в городе еще около 300 заводов… Неудивительно, что в городе на втором месте по числу заболеваний находится рак, причем рак легких.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_cherepovets">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Череповец</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_novokuznetsk">
+     <widget class="QLabel" name="label_photo_novokuznetsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_novokuznetsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; color:#000000;&quot;&gt;Уже многие годы этот крупный промышленный сибирский центр входит в список городов РФ с самым «плохим» воздухом. Меры принимаются, но пока что результат не слишком обнадеживает: по сравнению с 2017 годом удалось снизить число выбросов всего на 8%. Планируется, что к 2024 году благодаря программе «Чистый воздух» получится улучшить качество воздуха еще на 12%. Помимо контроля за деятельностью основных четырех «загрязнителей» — крупных промышленных предприятий, специализирующихся на металлургии, машиностроении, добыче угля и энергетике, – в Новокузнецке хотят снизить количество выбросов и за счет выхлопных газов. Поэтому мэрия купила несколько автобусов и троллейбусов на природном газе. Правда, из-за пандемии, падения цен на уголь и соответственно дефицита бюджета эту инициативу пришлось заморозить.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_novokuznetsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Новокузнецк</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_nizhniy_tagil">
+     <widget class="QLabel" name="label_photo_nizhniy_tagil">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_nizhniy_tagil">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; color:#000000;&quot;&gt;Слова «легко дышать» вызывают у жителей этого города иронические улыбки. Дышать в Нижнем Тагиле никогда не было легко. В советские времена, когда было построено подавляющее большинство «тяжелых» местных предприятий, об экологии не слишком пеклись, так что ежегодно в воздух выбрасывалось огромное количество пыли и вредных выбросов. Бывалые тагильчане по цвету «лисьих хвостов» мартенов могли определить, что на этот раз за выброс: например, если оттенок фиолетовый, то это ванадий. Приезжих шокировали как разноцветные полосы в небе, так и цветной слоистый снег. Уменьшению числа выбросов способствовало закрытие нескольких «тяжелых» предприятий в начале 2000-х годов. Однако их еще осталось предостаточно – металлургический комбинат, вагоностроительный завод и так далее. По программе «Чистый воздух» планируется снизить число выбросов примерно на 20% по сравнению с 2017 годом. А пока что снижение составило около 11%.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_nizhniy_tagil">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Нижний Тагил</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_omsk">
+     <widget class="QTextEdit" name="textEdit_omsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; color:#000000;&quot;&gt;Причина плохого состояния воздуха в городе – эффективные управленцы. За весь прошлый год прокуратурой Омска было зафиксировано более 700 нарушений закона о загрязнении воздуха. Предприятия осуществляли несанкционированные выбросы, в нескольких случаях вообще не стояли на учете как потенциальные источники загрязнения, не обращали внимание на требования по снижению числа выбросов в случае неблагоприятных погодных условий и т. д. Самое печальное, что примерно в половине случаев виновных не удалось найти. Также проверки выявили множество нарушений со стороны тех, кто должен был следить за качеством воздуха: виновных не искали, а если находили – не подвергали наказанию.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_omsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_omsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Омск</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_chelyabinsk">
+     <widget class="QTextEdit" name="textEdit_chelyabinsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; color:#000000;&quot;&gt;Сомнительное звание самого «грязного» города России по качеству воздуха по итогам 2020 года уходит к Челябинску. Это крупный промышленный город, по количеству производимого занимающий 13-е место в России. Причем производство это тяжелое, металлургия и машиностроение. Именно эти две отрасли являются главными загрязнителями городского воздуха. Ухудшается положение еще и тем, что метеоусловия Челябинска нельзя назвать благоприятными для горожан. Это значит, что движение воздуха настолько слабое, что в нижних слоях атмосферы скапливаются выбросы: промышленные, выхлопы автомобилей, пар, пыль и дым от периодических пожаров на находящейся в черте города свалки. И все это повисает над городом плотным одеялом.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_chelyabinsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_chelyabinsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Челябинск</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_dzerzhinsk">
+     <widget class="QTextEdit" name="textEdit_dzerzhinsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Степень загрязнения воздуха в Дзержинске характеризуется как высокая. Здесь в промышленной зоне содержание опасного для здоровья фенола местами в 700 раз превышает ПДК. Систематическое превышение в воздухе норм содержания фенола наблюдается в городе. Жители жалуются на то, что на улицах присутствует химический запах. Помимо этого, воздух Дзержинска выше всех допустимых норм загрязнён:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;1. аммиаком,&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;2. диоксидом азота,&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:21px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;3. взвешенными веществами.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_dzerzhinsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_dzerzhinsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Дзержинск</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_bratsk">
+     <widget class="QTextEdit" name="textEdit_bratsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; color:#000000;&quot;&gt;Подавляющее количество вредных веществ в воздух Братска поступает из труб промышленных предприятий, а их в этом сибирском городе множество. Есть и цветная металлургия, металлообработка, ГЭС и ТЭЦ, а также деревообрабатывающий комбинат. Как выяснила проверка, многие предприятия относятся к вопросу экологии спустя рукава, эффективные собственники стараются снизить издержки и увеличить прибыль. Например, прошлая проверка обнаружила, что на многих воздуховодах не стоят заглушки – это же денег стоит. Также комиссия обнаружила, что газоочистные сооружения работают буквально вполсилы, меры по очистке воздуха не выполняются, а электролизеры (устройства для получения газа) стоят открытые и беспрепятственно выбрасывают вредные вещества в атмосферу.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_bratsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_bratsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Братск</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_chita">
+     <widget class="QTextEdit" name="textEdit_chita">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; color:#000000;&quot;&gt;В отличие от прочих проблемных городов рейтинга, причина загрязнения воздуха в Чите – отнюдь не тяжелая промышленность. Да, когда-то там был собственный камвольный комбинат, но он прекратил свое существование еще три года назад. Сейчас главное промышленное предприятие – это ТЭЦ. Однако в плохом качестве воздуха виновата не только она. Дело в том, что город расположен очень неудачно (в котловине), со всех сторон его окружают сопки, что препятствует естественному движению воздуха. Это значит, что частицы пыли, дым от многочисленных котельных и частных домов, которые топятся углем, а также выхлопы от автомобилей, не сносятся в сторону, а так и висят над городом.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_chita">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_chita">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Чита</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_mednogorsk">
+     <widget class="QTextEdit" name="textEdit_mednogorsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt; color:#000000;&quot;&gt;Открывает список самых «грязных» городов России 2020 года Медногорск, расположенный в Оренбургской области. Это один из так называемых «моногородов» — поселений, возникших вокруг какого-нибудь крупного предприятия или месторождения, чтобы персоналу было где жить, а их семьям – где учиться и делать покупки. Медногорск вырос вокруг медно-колчеданного месторождения, на котором в 30-е годы был возведен медно-серный комбинат. После закрытия рудника комбинат продолжил работать, однако перешел на привозное сырье. В городе есть еще один крупный завод, оставшийся еще с советских времен – «Уралэлектро». Но «промышленный» воздух – не единственная экологическая проблема Медногорска. Рудник оставил после себя наследие – карьер, в котором добывали медь. За полвека в него натекло воды, которая окрасилась в ядовито-зеленый цвет и начала просачиваться в грунтовые воды, постепенно их отравляя. В местной речке эксперты-экологи обнаружили рекордные значения меди и цинка, превышающие нормативы более чем в 30 раз!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_mednogorsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_mednogorsk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Медногорск</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_novocherkassk">
+     <widget class="QTextEdit" name="textEdit_novocherkassk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Состояние окружающей среды в г. Новочеркасске определяется рядом специфических факторов, таких как: высокая концентрация промышленных предприятий в одном районе города; насыщенность движения автотранспорта на отдельных магистралях; недостаточное количество зеленых насаждений; высокая степень подтопления в основном промышленного района города грунтовыми водами.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Основными загрязнителями окружающей среды в городе являются предприятия: Филиал ОАО «ОГК-6» Новочеркасская ГРЭС («Шестая генерирующая компания оптового рынка электроэнергии»), ОАО «ЭНЕРГОПРОМ-НЭЗ» (Новочеркасский электродный завод»), ОАО «Новочеркасский завод синтетических продуктов», ООО «ПК «Новочеркасский электровозостроительный завод», «Актис», которые расположены в северной части города.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_novocherkassk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_novocherkassk">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Новочеркасск</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_asbest">
+     <widget class="QTextEdit" name="textEdit_asbest">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>541</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:125%;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:12pt;&quot;&gt;Вместе с тем по данным статистики 2012 года Асбест занимает 5-е место в рейтинге самых грязных городов России по объёму выбросов в атмосферу, 98% которых приходится на предприятия асбестодобывающей и асбестоперерабатывающей промышленности. Неблагоприятная ситуация складывается и вокруг захоронения отходов, поскольку системы сбора отходов в городе попросту не существует, и предприятия не утруждают себя вывозить вредные вещества на специальные полигоны, а попросту оставляют их в лесных массивах поблизости города. Власти Свердловской области также признают назревшие экологические проблемы.&lt;br /&gt;Тот факт, что власти открыто признают неблагоприятную экологическую обстановку в Асбесте, даёт реальные плоды: город - один из немногих, который действительно показывает положительную динамику в плане уменьшения выбросов, а за последние 20 лет среди жителей Асбеста не было выявлено ни одного случая заболевания асбестозом. В конце 2016 года администрация Асбестовского городского округа заявила, что за прошедший год объём вредных выбросов со стороны предприятий составил всего 8,1 тысячи тонн (против 330-ти в 2012-м году). Подозрительно удивительная цифра, но хочется верить, что она действительно такова!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_photo_asbest">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>541</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_title_asbest">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>12</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 100 12pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Асбест</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn_chita">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Чита</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_nizhniy_tagil">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Нижний Тагил</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_mednogorsk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>440</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Медногорск</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_magnitogorsk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Магнитогорск</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_bratsk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Братск</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_dzerzhinsk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Дзержинск</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_omsk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Омск</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_chelyabinsk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Челябинск</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_lipetsk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Липецк</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_novokuznetsk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Новокузнецк</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_krasnoyarsk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Красноярск</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_cherepovets">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Череповец</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_asbest">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>500</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Асбест</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_norilsk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Норильск</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="btn_novocherkassk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>470</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Новочеркасск</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup_cities</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>738</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_cities"/>
+ </buttongroups>
+</ui>
